@@ -1,7 +1,6 @@
 .logo-header {
   color: var(--six-title-color);
 }
-
 :root {
   --main-title-color: #ffffff;
   --main-btn-color: #2196f3;
@@ -22,12 +21,7 @@
 .link {
   text-decoration: none;
 }
-
 /*-------Heder-------- */
-.header {
-  background-color: var(--main-title-color);
-}
-
 .logo {
   font-family: "Raleway";
   font-style: normal;
@@ -35,7 +29,6 @@
   font-size: 26px;
   line-height: calc(31 / 26);
   letter-spacing: 0.03em;
-
   color: var(--main-btn-color);
 }
 .nav-link {
@@ -43,58 +36,38 @@
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-
   color: var(--accent-color);
 }
 .nav-link:hover,
 .nav-link:focus {
   color: var(--main-btn-color);
 }
-
-.nav-list .nav-header.curent {
+.nav-list .nav-link.curent {
   color: var(--main-btn-color);
 }
-
-.nav-header {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: calc(16 / 14);
-  letter-spacing: 0.02em;
-  color: var(--main-btn-color);
-}
-.nav-header:hover,
-.nav-header:focus {
-  color: var(--accent-color);
-}
-
 .header-tel {
   font-weight: 500;
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
-
   color: var(--fourth-title-color);
 }
 .header-tel:hover,
 .header-tel:focus {
   color: var(--accent-color);
 }
-
 .header-mail {
   font-weight: 500;
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
-
   color: var(--main-btn-color);
 }
 .header-mail:hover,
 .header-mail:focus {
   color: var(--accent-color);
 }
-
-/*------Header----- */
-/*-------hero------- */
+/*------Hero----- */
 .hero {
   background-color: var(--primary-color);
 }
@@ -105,10 +78,8 @@
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-
   color: var(--main-title-color);
 }
-
 .button-hero {
   font-family: inherit;
   font-weight: 700;
@@ -121,15 +92,12 @@
   cursor: pointer;
   background-color: var(--main-btn-color);
   border: none;
-
   color: var(--main-title-color);
 }
-
 .button-hero:hover,
 .button-hero:focus {
   color: var(--six-title-color);
 }
-
 /*--------Section------- */
 .section {
   background-color: var(--main-title-color);
@@ -146,30 +114,24 @@
   clip-path: inset(50%);
   margin: -1px;
 }
-
 .section-title {
-  font-weight: 700;
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--accent-color);
 }
-
 .section-text {
-  font-weight: 400;
   font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
   color: var(--fourth-title-color);
 }
-
 /* --------Project-------- */
 .project {
   background-color: var(--main-title-color);
 }
 .project-title {
-  font-weight: 700;
   font-size: 36px;
   line-height: calc(42 / 36);
   text-align: center;
@@ -180,62 +142,25 @@
 .comand-link {
   background-color: var(--secondary-title-color);
 }
-
 .comand-item {
   font-weight: 500;
   font-size: 16px;
   line-height: calc(19 / 16);
   text-align: center;
   letter-spacing: 0.03em;
-
   color: var(--accent-color);
 }
-
 .comand-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: calc(19 / 16);
   text-align: center;
   letter-spacing: 0.03em;
-
   color: var(--fourth-title-color);
 }
-
-.about-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: calc(42 / 36);
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--accent-color);
-}
-
-.about-sub-title {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: calc(19 / 16);
-  text-align: center;
-  letter-spacing: 0.03em;
-
-  color: var(--accent-color);
-}
-
-.about-description {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: calc(19 / 16);
-  text-align: center;
-  letter-spacing: 0.03em;
-
-  color: var(--fourth-title-color);
-}
-
 /* ------foter------- */
-
 .footer {
   background-color: var(--primary-color);
 }
-
 .logo-section {
   font-family: "Raleway";
   font-style: normal;
@@ -249,7 +174,6 @@
   color: var(--main-title-color);
 }
 .footer-adres {
-  font-weight: 400;
   font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
@@ -262,9 +186,7 @@
 .address {
   font-style: normal;
 }
-
 .footer-mail {
-  font-weight: 400;
   font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
@@ -274,9 +196,7 @@
 .footer-mail:focus {
   color: var(--main-title-color);
 }
-
 .footer-tel {
-  font-weight: 400;
   font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
@@ -286,118 +206,39 @@
 .footer-tel:focus {
   color: var(--main-title-color);
 }
-
 /* -----------portfolio html----------- */
-/* --------Header------------ */
-
-.logo {
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: calc(31 / 26);
-  letter-spacing: 0.03em;
-
-  color: var(--main-btn-color);
-}
-
-.nav-link {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-
-  color: var(--accent-color);
-}
-
-.nav-link:hover,
-.nav-link:focus {
-  color: var(--main-btn-color);
-}
-
-.nav-list .nav-header.curent {
-  color: var(--main-btn-color);
-}
-
-.nav-header {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: calc(16 / 14);
-  letter-spacing: 0.02em;
-  color: var(--main-btn-color);
-}
-
-.nav-header:hover,
-.nav-header:focus {
-  color: var(--accent-color);
-}
-
-.header-tel {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: calc(16 / 14);
-  letter-spacing: 0.02em;
-
-  color: var(--fourth-title-color);
-}
-
-.header-tel:hover,
-.header-tel:focus {
-  color: var(--accent-color);
-}
-
-.header-mail {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: calc(16 / 14);
-  letter-spacing: 0.02em;
-
-  color: var(--main-btn-color);
-}
-
-.header-mail:hover,
-.header-mail:focus {
-  color: var(--accent-color);
-}
-
-/*--------------------Main-------------------- */
-
 .btn-list {
+  font-family: "Roboto";
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: calc(26 / 16);
   text-align: center;
   letter-spacing: 0.03em;
   cursor: pointer;
-
   color: var(--accent-color);
 }
-
 .btn-list:hover,
 .btn-list:focus {
   color: var(--main-btn-color);
 }
-
 .btn-list {
   border-style: none;
 }
-
 .btn-item {
+  font-family: "Roboto";
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: calc(26 / 16);
-
   text-align: center;
   letter-spacing: 0.03em;
   cursor: pointer;
-
   color: var(--main-title-color);
 }
-
 .btn-item {
   background-color: var(--main-btn-color);
 }
-
 .btn-item:hover,
 .btn-item:focus {
   color: var(--accent-color);
@@ -405,92 +246,15 @@
 .btn-item {
   border-style: none;
 }
-
-/* -------Project--------*/
-.visually-hidden {
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  margin: -1px;
-}
-
 .design-title {
-  font-weight: 700;
   font-size: 18px;
   line-height: calc(36 / 18);
   letter-spacing: 0.06em;
-
   color: var(--accent-color);
 }
-
 .design-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: calc(30 / 16);
   letter-spacing: 0.03em;
   color: var(--fourth-title-color);
-}
-/*------- footer------- */
-
-.footer {
-  background-color: #2f303a;
-}
-
-.logo-section {
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: calc(31 / 26);
-  letter-spacing: 0.03em;
-  color: var(--main-btn-color);
-}
-
-.logo-footer {
-  color: var(--main-title-color);
-}
-
-.footer-adres {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: calc(24 / 14);
-  letter-spacing: 0.03em;
-  color: var(--main-title-color);
-}
-
-.footer-adres:hover,
-.footer-adres:focus {
-  color: var(--main-btn-color);
-}
-
-.footer-mail {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: calc(24 / 14);
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
-}
-
-.footer-mail:hover,
-.footer-mail:focus {
-  color: var(--main-title-color);
-}
-
-.footer-tel {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: calc(24 / 14);
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
-}
-
-.footer-tel:hover,
-.footer-tel:focus {
-  color: var(--main-title-color);
 }
